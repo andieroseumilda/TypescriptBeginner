@@ -51,12 +51,3 @@ const pet2: Pet = pet1;
 console.log(pet2.getName());
 console.log(pet1.getName());
 
-/*
-Class - blueprint / template / model of an object.
-Object - custom data type created using class.
-Instance - copy of same object called by constructor
-Override - to override method inherited from parent to implement sariling method. 
-Protected (modifier)) 
-Constructor - to assign values to class variable. Only use in classes
-Instantiation - creating an object by calling the constructor
-*/

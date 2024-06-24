@@ -2,8 +2,8 @@ interface Reportable {
     summary(): string; 
 }
 
-const oldCivic3 = {
-    name: 'civic',
+const oldToyota = {
+    name: 'toyota',
     year: new Date(),
     broken: true,
     summary(): string{
@@ -11,11 +11,11 @@ const oldCivic3 = {
     }
 };
 
-const printVehicle3 = (item: Reportable): void =>{
+const printCar = (item: Reportable): void =>{
     console.log(`${item.summary()}`)
 }
 
-printVehicle3(oldCivic3);
+printCar(oldToyota);
 
 /*
 The TS type System 

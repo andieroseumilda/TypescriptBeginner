@@ -1,9 +1,9 @@
-interface Reportable2 {
+interface Reports {
     summary(): string; 
 }
 
-const oldCivic4 = {
-    name: 'civic',
+const oldSedan = {
+    name: 'sedan',
     year: new Date(),
     broken: true,
     summary(): string{
@@ -11,7 +11,7 @@ const oldCivic4 = {
     }
 };
 
-const drink = {
+const drinks = {
     color: 'brown',
     carbonated: true,
     sugar: 40,
@@ -20,13 +20,13 @@ const drink = {
     }
 }
 
-const printSummary = (item: Reportable2): void =>{
+const printSummary = (item: Reports): void =>{
     console.log(`${item.summary()}`)
 }
 
 
-printSummary(oldCivic4);
-printSummary(drink);
+printSummary(oldSedan);
+printSummary(drinks);
 
 /*
 The TS type System 
